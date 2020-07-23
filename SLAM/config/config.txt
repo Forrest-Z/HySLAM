@@ -1,0 +1,37 @@
+VERSION = 1.0
+
+TILE_SIZE = 0.05
+
+#Number of times a landmark must be observed to be recognized as a landmark 
+PROBABLITY_THRESHOLD = 0.8 
+
+#maximum range of lidar (meters) - any point further than this will be ignored
+MAX_LIDAR_RANGE = 10.0
+#coverage of lidar data 
+LIDAR_COVERAGE = 180
+#noise reduction - minimum number of points to be within max disstance for the points to be kept
+MIN_POINTS = 5
+#the maximum differance in ajencent lidar readings per meter before being removed
+MAX_NOISE = 0.1
+
+
+
+#-----OrthoSLAM-------------
+#if a landmark is within max error (metres) of another landmark its the same landmark
+MAX_ERROR = 0.5
+#min amount of overlap required for lines to be consisered the same
+MIN_OVERLAP = 0.3
+# allowed deviation between endpoints for line to be considered orthogonal - per meter
+MAX_DEVIATION = 0.3
+#min number of points for a line to  be considered
+MIN_LINE_POINTS = 10
+#min line length to be considered (in meters)
+MIN_LINE_LENGTH = 0.3
+#increse in probabilty of being a land mark when seen - for lines
+PROBABLITY_INCREASE = 0.2
+
+#-----GPU SLAM-------------
+# amount of noise for gpu slam (meters) - this is the distrabution distance when calculating tile ocupancy
+NOISE = 0.08
+# reduciton appliyed to the minimap when added to map. - used also in orthoslam minimap
+PROBABILITY_REDUCTION = 0.2
