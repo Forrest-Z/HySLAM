@@ -8,19 +8,24 @@ This repository contains two programs:
 
 HySLAM builds on work by Nguyen,2006 and Rodriguez-Losada,2013. 
 
-##Datasets:
+HySLAM has two ways of operating:
+1.	Manually enter the dataset required in the command line interface.
+2.	Set up a list of files to process, in one go. For this the “FileList.csv” is used in the import folder. This allows the weights of the SLAM algorithm to be set.
+
+
+## Datasets:
 has been designed to run on Radish datasets: 
 Robotics 2D-Laser Datasets: http://www.ipb.uni-bonn.de/
 datasets/
 
 This project was part of a thesis for Heriot Watt University 
 
-##Dependencies
+## Dependencies
 
 HySLAM requires a C++17 compliant compiler. It relies on the OpenCL library 3.3.1 or greater
 
 
-##Bibliography
+## Bibliography
 
 Nguyen, V., Harati, A., Martinelli, A., Siegwart, R., and Tomatis, N. (2006). Orthogonal SLAM: A step toward lightweight indoor autonomous navigation. IEEE International Conference on Intelligent Robots and Systems, pages 5007–5012.
 
