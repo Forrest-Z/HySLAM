@@ -4,23 +4,24 @@ HySLAM has been evaluated. From this evaluation it was found that HySLAM can ach
 
 This repository contains two programs:
  - The HySLAM.
- - The Scoring Program used to calculate the ground truth.
+ - The Scoring Program -  used to calculate the ground truth.
 
 HySLAM builds on work by Nguyen,2006 and Rodriguez-Losada,2013. 
 
-Datasets:
+##Datasets:
 has been designed to run on Radish datasets: 
 Robotics 2D-Laser Datasets: http://www.ipb.uni-bonn.de/
 datasets/
 
 This project was part of a thesis for Heriot Watt University 
 
-Dependencies
+##Dependencies
+
 HySLAM requires a C++17 compliant compiler. It relies on the OpenCL library 3.3.1 or greater
 
 
-Bibliography
-Nguyen, V., Harati, A., Martinelli, A., Siegwart, R., and Tomatis, N. (2006). Orthogonal SLAM: A step toward lightweight indoor autonomous navigation. IEEE International Conference on Intelligent Robots and Systems, pages 5007–5012.
+##Bibliography
 
+Nguyen, V., Harati, A., Martinelli, A., Siegwart, R., and Tomatis, N. (2006). Orthogonal SLAM: A step toward lightweight indoor autonomous navigation. IEEE International Conference on Intelligent Robots and Systems, pages 5007–5012.
 
 Rodriguez-Losada, D., San Segundo, P., Hernando, M., De La Puente, P., and ValeroGomez, A. (2013). GPU-mapping: Robotic map building with graphical multiprocessors. IEEE Robotics and Automation Magazine, 20(2):40–51.
