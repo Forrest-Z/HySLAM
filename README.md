@@ -12,6 +12,7 @@ HySLAM has two ways of operating:
 1.	Manually enter the dataset required in the command line interface.
 2.	Set up a list of files to process, in one go. For this the “FileList.csv” is used in the import folder. This allows the weights of the SLAM algorithm to be set.
 
+The Score programme takes to log files from the SLAM programme and compare them, returning an RMSE (root mean square error). To import the files, modify the “filelist.csv” file in the import folder.
 
 ## Datasets:
 has been designed to run on Radish datasets: 
